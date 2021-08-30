@@ -42,5 +42,15 @@ body {
   transition: all 0.75s ease-out;
 }
 
+.circle {
+  width: 20rem;
+  height: 20rem;
+  background-image: url('https://i.gifer.com/IVyM.gif');
+  position: absolute;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+
 
 
