@@ -11,4 +11,13 @@ container.addEventListener('mousemove', (e) => {
     let yAxis = (window.innerHeight / 2 - e.pageY) / 10
     card.style.transform = `rotateY(${yAxis}deg) rotateX(${xAxis}deg)`
 })
+
+container.addEventListener('mouseenter', (e) => {
+    card.style.transition = 'none'
+    title.style.transform = "translateZ(150px)"
+    sneaker.style.transform = "translateZ(200px) rotateZ(1deg)"
+    description.style.transform = "translateZ(125px)"
+    sizes.style.transform = "translateZ(100px)"
+    purchase.style.transform = "translateZ(75px)"
+})
   
