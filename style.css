@@ -51,6 +51,19 @@ body {
   z-index: 1;
 }
 
+.info h1 {
+  font-size: 3rem;
+  transition: all 0.75s ease-out;
+}
+
+.info h3 {
+  font-size: 1.3rem;
+  padding: 2rem 0;
+  color: #585858;
+  font-weight: lighter;
+  transition: all 0.75s ease-out;
+}
+
 
 
 
