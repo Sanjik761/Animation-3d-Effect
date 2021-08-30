@@ -1,15 +1,15 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    perspective: 1000px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  perspective: 1000px;
 }
 
 .container {
@@ -91,9 +91,9 @@ button.active {
 }
 
 .purchase button {
-width: 100%;
-padding: 1rem 0rem;
-background: #f54642;
+  width: 100%;
+  padding: 1rem 0rem;
+  background: #f54642;
   border: none;
   cursor: pointer;
   color: white;
