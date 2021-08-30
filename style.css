@@ -36,5 +36,11 @@ body {
   justify-content: center;
 }
 
+.sneaker img {
+  width: 20rem;
+  z-index: 2;
+  transition: all 0.75s ease-out;
+}
+
 
 
