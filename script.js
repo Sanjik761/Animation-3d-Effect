@@ -21,3 +21,11 @@ container.addEventListener('mouseenter', (e) => {
     purchase.style.transform = "translateZ(75px)"
 })
   
+container.addEventListener('mouseleave', (e) => {
+    card.style.transform = `rotateY(0deg) rotateX(0deg)`
+    title.style.transform = "translateZ(0px)"
+    sneaker.style.transform = "translateZ(0px) rotateZ(0deg)"
+    description.style.transform = "translateZ(0px)"
+    sizes.style.transform = "translateZ(0px)"
+    purchase.style.transform = "translateZ(0px)"
+})
