@@ -29,4 +29,12 @@ body {
   transition: 0.5s ease;
 }
 
+.sneaker {
+  min-height: 35vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
 
